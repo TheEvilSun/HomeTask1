@@ -8,8 +8,6 @@ project(HomeTask1 VERSION ${PROJECT_VERSION})
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-find_package(Catch2 3 REQUIRED)
-
 configure_file(version.h.in version.h)
 
 Include(FetchContent)
