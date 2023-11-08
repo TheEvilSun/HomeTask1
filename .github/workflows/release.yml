@@ -16,10 +16,7 @@ jobs:
       - run: |
             sudo apt-get update && sudo apt-get install git -y
             git clone https://github.com/Microsoft/vcpkg.git
-            pwd
             cd vcpkg
-            pwd
-            list
             ./bootstrap-vcpkg.sh
             ./vcpkg integrate install
             ./vcpkg install catch2
